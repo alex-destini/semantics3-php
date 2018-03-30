@@ -1,5 +1,6 @@
 <?php
 
+require_once(dirname(dirname(__FILE__)).'/Semantics3Init.php');
 class Semantics3_Products extends Api_Connector {
 
   private $_query_result = array();

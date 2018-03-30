@@ -1,5 +1,6 @@
 <?php
 
+require_once(dirname(dirname(__FILE__)).'/Semantics3Init.php');
 abstract class Api_Connector
 {
   private $apiKey;

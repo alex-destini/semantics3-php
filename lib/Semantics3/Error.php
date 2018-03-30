@@ -1,5 +1,6 @@
 <?php
 
+require_once(dirname(dirname(__FILE__)).'/Semantics3Init.php');
 class Semantics3_Error extends Exception
 {
   public function __construct($message=null, $http_status=null, $http_body=null, $json_body=null)
